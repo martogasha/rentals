@@ -21,4 +21,7 @@ class AdminController extends Controller
     public function orders(){
         return view('admin.orders');
     }
+    public function mpesa(){
+        return view('admin.mpesa');
+    }
 }

@@ -71,6 +71,8 @@
                         </li>
                         <li class="active"><a href="{{url('orders')}}">Orders<span class="submenu-indicator"></span></a>
                         </li>
+                        <li><a href="{{url('mpesa')}}">Mpesa<span class="submenu-indicator"></span></a>
+                        </li>
 
                     </ul>
                     <ul class="nav-menu nav-menu-social align-to-right dhsbrd">
@@ -129,6 +131,8 @@
                                     <li><a href="{{url('admin')}}"><i class="fa fa-tachometer-alt"></i>Dashboard</a></li>
                                     <li class="active"><a href="{{url('orders')}}"><i class="fa fa-cart-plus"></i>Orders<span class="notti_coun style-1">4</span></a></li>
                                     <li><a href="{{url('property')}}"><i class="fa fa-tasks"></i>My Properties</a></li>
+                                    <li><a href="{{url('mpesa')}}"><i class="fa fa-cash-register"></i>Mpesa</a></li>
+
                                     <li><a href="{{url('messages')}}"><i class="fa fa-envelope"></i>Messages<span class="notti_coun style-3">3</span></a></li>
                                 </ul>
                             </ul>

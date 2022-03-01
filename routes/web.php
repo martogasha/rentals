@@ -29,5 +29,6 @@ Route::get('shop', [App\Http\Controllers\ClientController::class, 'shop']);
 Route::get('admin', [App\Http\Controllers\AdminController::class, 'index']);
 Route::get('property', [App\Http\Controllers\AdminController::class, 'property']);
 Route::get('orders', [App\Http\Controllers\AdminController::class, 'orders']);
+Route::get('mpesa', [App\Http\Controllers\AdminController::class, 'mpesa']);
 Route::get('addProperty', [App\Http\Controllers\AdminController::class, 'addProperty']);
 Route::get('propertyDetail', [App\Http\Controllers\AdminController::class, 'propertyDetail']);

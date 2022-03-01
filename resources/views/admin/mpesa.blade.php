@@ -67,11 +67,11 @@
                         <li><a href="{{url('admin')}}">Dashboard<span class="submenu-indicator"></span></a>
                         </li>
 
-                        <li class="active"><a href="{{url('property')}}">Manage Property<span class="submenu-indicator"></span></a>
+                        <li><a href="{{url('property')}}">Manage Property<span class="submenu-indicator"></span></a>
                         </li>
                         <li><a href="{{url('orders')}}">Orders<span class="submenu-indicator"></span></a>
                         </li>
-                        <li><a href="{{url('mpesa')}}">Mpesa<span class="submenu-indicator"></span></a>
+                        <li class="active"><a href="{{url('mpesa')}}">Mpesa<span class="submenu-indicator"></span></a>
                         </li>
 
                     </ul>
@@ -130,9 +130,10 @@
                                 <ul>
                                     <li><a href="{{url('admin')}}"><i class="fa fa-tachometer-alt"></i>Dashboard</a></li>
                                     <li><a href="{{url('orders')}}"><i class="fa fa-cart-plus"></i>Orders<span class="notti_coun style-1">4</span></a></li>
-                                    <li class="active"><a href="{{url('property')}}"><i class="fa fa-tasks"></i>My Properties</a></li>
-                                    <li><a href="{{url('mpesa')}}"><i class="fa fa-cash-register"></i>Mpesa</a></li>
+                                    <li><a href="{{url('property')}}"><i class="fa fa-tasks"></i>My Properties</a></li>
+                                    <li class="active"><a href="{{url('mpesa')}}"><i class="fa fa-cash-register"></i>Mpesa</a></li>
                                     <li><a href="{{url('messages')}}"><i class="fa fa-envelope"></i>Messages<span class="notti_coun style-3">3</span></a></li>
+
                                 </ul>
                             </ul>
                         </div>
@@ -149,66 +150,42 @@
                 </div>
 
                 <div class="col-lg-9 col-md-8 col-sm-12">
-                    <h4>4 Bhk Luxury Villa</h4>
-                    <div class="dashboard-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                    <div class="card shadow">
-                                        <div class="card-body">
-                                            <p class="card-text">TOTAL MONTHLY</p>
-                                            <h2 class="card-title">1051111</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                    <div class="card shadow">
-                                        <div class="card-body">
-                                            <p class="card-text">BALANCE MONTHLY</p>
-                                            <h2 class="card-title"><b style="color: red">1051111</b></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                    <div class="card shadow">
-                                        <div class="card-body">
-                                            <h2 class="card-title"><b style="font-size: 15px;color: green">Total Houses</b>110</h2>
-                                            <h2 class="card-title"><b style="font-size: 15px;color: blue">Vacant Houses</b>11</h2>
-                                        </div>
-                                    </div>
+                    <h5>Mpesa Transactions</h5>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <p class="card-text">TOTAL MONTHLY</p>
+                                    <h2 class="card-title">Ksh 1051111</h2>
                                 </div>
                             </div>
                         </div>
-                        <form action="/action_page.php">
-                            <label for="birthday">From:</label>
-                            <input type="date" id="birthday" name="birthday">
-                            <label for="birthday">To:</label>
-                            <input type="date" id="birthday" name="birthday">
-                            <input type="submit" value="Submit">
-                        </form>
-                        <br>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="_prt_filt_dash">
-                                    <div class="_prt_filt_dash_flex">
-                                        <div class="foot-news-last">
-                                            <div class="input-group">
-                                                <input type="text" class="form-control" placeholder="Search">
-                                                <div class="input-group-append">
-                                                    <span type="button" class="input-group-text theme-bg b-0 text-light"><i class="fas fa-search"></i></span>
-                                                </div>
+                    </div>
+                    <form action="#">
+                        <label for="birthday">From:</label>
+                        <input type="date" id="birthday" name="birthday">
+                        <label for="birthday">To:</label>
+                        <input type="date" id="birthday" name="birthday">
+                        <input type="submit" value="Submit">
+                    </form>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="_prt_filt_dash">
+                                <div class="_prt_filt_dash_flex">
+                                    <div class="foot-news-last">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search">
+                                            <div class="input-group-append">
+                                                <span type="button" class="input-group-text theme-bg b-0 text-light"><i class="fas fa-search"></i></span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="_prt_filt_dash_last m2_hide">
-                                        <div class="_prt_filt_add_new">
-                                            <a href="{{'addTenant'}}" class="prt_submit_link"><i class="fas fa-plus-circle"></i><span class="d-none d-lg-block d-md-block">New Tenant</span></a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-
+                    </div>
+                    <div class="dashboard-body">
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <div class="dashboard_property">
@@ -216,12 +193,10 @@
                                         <table class="table">
                                             <thead class="thead-dark">
                                             <tr>
-                                                <th scope="col">House No</th>
-                                                <th scope="col" class="m2_hide">Tenant</th>
-                                                <th scope="col" class="m2_hide">Rent</th>
-                                                <th scope="col" class="m2_hide">Balance</th>
-                                                <th scope="col">Due Date</th>
-                                                <th scope="col">Action</th>
+                                                <th scope="col">Transaction Code</th>
+                                                <th scope="col" class="m2_hide">Name</th>
+                                                <th scope="col">Amount</th>
+                                                <th scope="col">Date</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -230,7 +205,7 @@
                                                 <td>
                                                     <div class="dash_prt_wrap">
                                                         <div class="dash_prt_caption">
-                                                            <h5>A1</h5>
+                                                            <h5>QKNB66788</h5>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -239,20 +214,12 @@
 
                                                 </td>
                                                 <td class="m2_hide">
-                                                    <div class="_leads_view"><h5 class="up">50000</h5></div>
+                                                    <div class="_leads_view"><h5 class="up">ksh 50000</h5></div>
+
                                                 </td>
                                                 <td class="m2_hide">
-                                                    <div class="_leads_view"><h5 class="up" style="color: red">20000</h5></div>
-                                                </td>
-                                                <td>
-                                                    <div class="_leads_view_title"><span>12/02/2022</span></div>
-                                                </td>
-                                                <td>
-                                                    <div class="_leads_action">
-                                                        <a href="#"><i class="fas fa-eye"></i></a>
-                                                        <a href="#"><i class="fas fa-edit"></i></a>
-                                                        <a href="#"><i class="fas fa-trash"></i></a>
-                                                    </div>
+                                                    <div class="_leads_view"><h5 class="up">01-03-2022</h5></div>
+
                                                 </td>
                                             </tr>
                                             </tbody>
@@ -298,7 +265,6 @@
         <div class="footer-middle">
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-5 col-md-5">
                         <div class="footer_widget">
                             <img src="assets/img/logo-light.png" class="img-footer small mb-2" alt="" />
