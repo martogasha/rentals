@@ -676,7 +676,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="grid-layout-with-sidebar.html" class="img-wrap">
+                    <a href="{{url('shop')}}" class="img-wrap">
                         <div class="location_wrap_content visible">
                             <div class="location_wrap_content_first">
                                 <h4>Nairobi</h4>

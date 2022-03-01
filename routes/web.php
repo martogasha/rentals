@@ -24,6 +24,7 @@ Route::get('/dashboard', function () {
 require __DIR__.'/auth.php';
 Route::get('/', [App\Http\Controllers\ClientController::class, 'index']);
 Route::get('propertyD', [App\Http\Controllers\ClientController::class, 'propertyDetail']);
+Route::get('shop', [App\Http\Controllers\ClientController::class, 'shop']);
 //admin routes
 Route::get('admin', [App\Http\Controllers\AdminController::class, 'index']);
 Route::get('property', [App\Http\Controllers\AdminController::class, 'property']);

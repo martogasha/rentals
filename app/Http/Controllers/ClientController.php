@@ -12,4 +12,7 @@ class ClientController extends Controller
     public function propertyDetail(){
         return view('propertyDetail');
     }
+    public function shop(){
+        return view('shop');
+    }
 }
