@@ -34,8 +34,8 @@
         <div class="container">
             <nav id="navigation" class="navigation navigation-landscape">
                 <div class="nav-header">
-                    <a class="nav-brand static-logo" href="#"><img src="assets/img/logo-light.png" class="logo" alt="" /></a>
-                    <a class="nav-brand fixed-logo" href="#"><img src="assets/img/logo.png" class="logo" alt="" /></a>
+                    <a class="nav-brand static-logo" href="#"><img src="assets/img/ELINK.png" class="logo" alt="" /></a>
+                    <a class="nav-brand fixed-logo" href="#"><img src="assets/img/ELINK.png" class="logo" alt="" /></a>
                     <div class="nav-toggle"></div>
                     <div class="mobile_nav">
                         <ul>
@@ -801,7 +801,7 @@
 
                     <div class="col-lg-5 col-md-5">
                         <div class="footer_widget">
-                            <img src="assets/img/logo-light.png" class="img-footer small mb-2" alt="" />
+                            <img src="assets/img/ELINK.png" class="img-footer small mb-2" alt="" />
                             <h4 class="extream mb-3">Do you need help with<br>anything?</h4>
                             <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
                             <div class="foot-news-last">
